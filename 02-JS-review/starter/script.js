@@ -171,4 +171,8 @@ const updatedBook = {
 };
 updatedBook;
 
-const summary = `${title}, a ${pages}-page long book, was written by {$author}`;
+const summary = `${title}, a ${pages}-page long book, was written by ${author}`;
+summary;
+
+pages > 1000 ? "over a thousand" : "less than 1000";
+pages;
