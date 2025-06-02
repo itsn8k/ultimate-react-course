@@ -159,3 +159,16 @@ console.log(author, title, genres);
 const [primaryGenre, secondaryGenre, ...otherGenres] = genres;
 
 console.log(primaryGenre, secondaryGenre, otherGenres);
+
+//restspread operator
+const newGenres = [...genres, "epic fantasy"];
+newGenres;
+
+const updatedBook = {
+  ...book,
+  moviePublicationDate: "2001-12-19",
+  pages: 1210,
+};
+updatedBook;
+
+const summary = `${title}, a ${pages}-page long book, was written by {$author}`;
