@@ -235,3 +235,7 @@ adventureBooks;
 
 const pagesAllBooks = books.reduce((acc, book) => acc + book.pages, 0);
 pagesAllBooks;
+
+const num = [3, 7, 1, 9, 6];
+const sorted = num.sort((a, b) => a - b);
+sorted;
