@@ -187,3 +187,5 @@ console.log(book.translations.spanish);
 
 const spanishTranslation = book.translations.spanish || "Not translated";
 spanishTranslation;
+
+console.log(book.reviews.librarything.reviewsCount);
