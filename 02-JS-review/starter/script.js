@@ -145,7 +145,7 @@ function getBook(id) {
 
 //destructurng
 
-const book = getBook(2);
+const book = getBook(1);
 // const title = book.title;
 // const author = book.author;
 
@@ -189,3 +189,5 @@ const spanishTranslation = book.translations.spanish || "Not translated";
 spanishTranslation;
 
 console.log(book.reviews.librarything.reviewsCount);
+const countWrong = book.reviews.librarything.reviewsCount || "no data";
+countWrong;
