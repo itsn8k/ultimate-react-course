@@ -257,3 +257,9 @@ booksAfterAdd;
 //2 Delete Book object
 const booksAfterDelete = booksAfterAdd.filter((book) => book.id !== 3);
 booksAfterDelete;
+
+//3 update book object
+const booksAfterUpdate = booksAfterDelete.map((book) =>
+  book.id === 1 ? { ...book, pages: 1210 } : book
+);
+booksAfterUpdate;
