@@ -145,7 +145,7 @@ function getBook(id) {
 
 //destructurng
 
-const book = getBook(1);
+const book = getBook(2);
 // const title = book.title;
 // const author = book.author;
 
@@ -176,3 +176,14 @@ summary;
 
 pages > 1000 ? "over a thousand" : "less than 1000";
 pages;
+
+console.log(true && "Some string");
+console.log(0 && "Some String");
+
+console.log(true || "some string");
+console.log(false || "some string");
+
+console.log(book.translations.spanish);
+
+const spanishTranslation = book.translations.spanish || "Not translated";
+spanishTranslation;
